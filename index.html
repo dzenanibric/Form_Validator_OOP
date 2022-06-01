@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Validation</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h2>REGISTER</h2>
+    <h2 style="color: green;" id="success"></h2>
+    <br>
+    <div class="forma">
+        <input type="text" id="first-last-name" placeholder="First Name and Last Name" required>
+        <input type="text" id="username" placeholder="Username" required>
+        <input type="text" id="email" placeholder="E-mail">
+        <select name="contry" id="country" required>
+            <option value="Country">Country</option>
+            <option value="Bosnia and Herzegowina">Bosnia and Herzegowina</option>
+            <option value="Turkey">Turkey</option>
+            <option value="Albania">Albania</option>
+            <option value="Kosovo">Kosovo</option>
+            <option value="Italy">Italy</option>
+            <option value="Austria">Austria</option>
+            <option value="Pakistan">Pakistan</option>
+            <option value="Iran">Iran</option>
+            <option value="UAE">UAE</option>
+            <option value="Croatia">Croatia</option>
+        </select>
+        <input type="password" id="password" placeholder="Password" required>
+        <input type="password" id="password-repeated" placeholder="Repeat Password" required>
+        <button id="submit-btn">SUBMIT</button>
+        <div class="msg"></div>
+    </div>
+    
+    <script src="index.js"></script>
+</body>
+</html>
